@@ -54,7 +54,7 @@ let resOfMult = 1;
 for (let i = 1; i < 36; i++) {
   resOfMult *= i;
 }
-console.log(resOfMult);
+console.log(BigInt(resOfMult));
 
 //sixth loop
 console.log("шестой цикл:");
