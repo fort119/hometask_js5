@@ -49,12 +49,12 @@ console.log(sum);
 //fifth loop
 console.log("пятый цикл:");
 
-let resOfMult = 1;
+let resOfMult = 1n;
 
-for (let i = 1; i < 36; i++) {
+for (let i = 15n; i < 36n; i++) {
   resOfMult *= i;
 }
-console.log(BigInt(resOfMult));
+console.log(resOfMult);
 
 //sixth loop
 console.log("шестой цикл:");
